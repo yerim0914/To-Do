@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "To-Do",
+    "slug": "To-Do",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6830CF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "icon" : "./assets/ios-icon.png"
+    },
+    "android" :{
+      "package" : "me.yerim.todo",
+      "icon" : "./assets/android-icon.png",
+      "adaptiveIcon" : {
+        "backgroundColor" : "#6830CF",
+        "foregroundImage" : "./assets/android-foreground.png"
+      }
+    }
+  }
+}
